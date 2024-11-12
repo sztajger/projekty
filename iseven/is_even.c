@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "mycode.h"
-
+#include <stdbool.h>
 
 int main(){
 
