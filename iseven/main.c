@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "mycode.h"
-#include <stdbool.h>
+#include "libeven.h"
+
+bool is_even(int number);
 
 int main(){
 
@@ -9,7 +10,7 @@ int main(){
     printf("Enter number: ");
     scanf("%d", &num);
 
-    if (is_even(num)){
+    if (is_even(num) == true){
         printf("%d is even", num);
     }
     else{ 
