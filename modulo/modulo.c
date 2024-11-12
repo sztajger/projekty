@@ -19,6 +19,4 @@ if (a % 2 > 0)
 
 else 
     printf("%d is odd", a);
-
-    
 }
