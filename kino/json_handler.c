@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "cJSON.h"
+#include "json_handler.h"
 
-void readJsonData(const char *filename)
+void read_json_data(const char *filename)
 {
 
      // open the file 
    FILE *fp = fopen(filename, "r"); 
    if (fp == NULL) { 
        printf("Error: Unable to open the file.\n"); 
-       return; 
+
    } 
  
    // read the file contents into a string 
@@ -25,7 +26,7 @@ void readJsonData(const char *filename)
            printf("Error: %s\n", error_ptr); 
        } 
        cJSON_Delete(json); 
-       return ; 
+
    } 
  
    // access the JSON data 
@@ -42,3 +43,8 @@ void readJsonData(const char *filename)
    // delete the JSON object 
    cJSON_Delete(json); 
 }
+
+
+
+
+

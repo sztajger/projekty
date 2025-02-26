@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include "cJSON.h"
 #include "cJSON.c"
-#include "libjsonhandler.c"
+#include "json_handler.h"
 
 
 
 
 int main(){
 
-    readJsonData("data.json");
+    read_json_data("data.json");
 
 
     return 0;

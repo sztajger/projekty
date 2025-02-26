@@ -2,6 +2,8 @@
     "files.associations": {
         "cjson.h": "c",
         "stdio.h": "c",
-        "libjsonhandler.h": "c"
+        "libjsonhandler.h": "c",
+        "json_handler.h": "c",
+        "stdlib.h": "c"
     }
 }
