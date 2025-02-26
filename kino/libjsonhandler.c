@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "cJSON.h"
 
-void read_json_data(const char *filename)
+void readJsonData(const char *filename)
 {
 
      // open the file 

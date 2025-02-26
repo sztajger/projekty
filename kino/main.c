@@ -8,7 +8,7 @@
 
 int main(){
 
-  read_json_data("data.json");
+    readJsonData("data.json");
 
 
     return 0;
