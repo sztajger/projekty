@@ -7,3 +7,30 @@ Aplikacja powinna zawierać 3 opcje:
 5. wczytywanie
 
 Apliakcja powinna działać w pętli while(1)
+
+#include <stdio.h>
+#include "book_mngr.c"
+
+
+int main(){
+
+    Book book1 = {"bogdan", "pierdek", 111};
+
+    printf("%s\n", book1.author);
+    
+
+    return 0;
+}
+
+
+
+
+
+typedef struct  
+{
+    char author[30];
+    char title [30];
+    int year;
+} Book;
+
+
