@@ -1,0 +1,9 @@
+Napisz aplikację, która pozwoli na przechowywanie spisu książek. Stwórz strukturę, która będzie zawierać imię, nazwisko autora, tytuł książki oraz rok wydania. 
+Aplikacja powinna zawierać 3 opcje:
+1. dodaj książkę do spisu
+2. Usuń ostatnio dodaną książkę ze spisu
+3. wyświetl wszystkie książki
+4. zapisywanie
+5. wczytywanie
+
+Apliakcja powinna działać w pętli while(1)
