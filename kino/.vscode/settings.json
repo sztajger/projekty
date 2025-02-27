@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "libjsonhandler.h": "c",
         "json_handler.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "string.h": "c"
     }
 }
