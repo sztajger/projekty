@@ -7,6 +7,7 @@ int main(){
     Book book1 = {"bogdan", "pierdek", 111};
 
     printf("%s\n", book1.author);
+    
 
     return 0;
 }
